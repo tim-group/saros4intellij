@@ -26,7 +26,7 @@ public class OurPluginProjectComponent implements ProjectComponent {
 
     public void initComponent() {
         Writer.write("set project: " + myProject.getName());
-        myFileEditorManager.addFileEditorManagerListener(new OurFileEditorManagerListener(), myProject);
+        myFileEditorManager.addFileEditorManagerListener(new OurFileEditorManagerListener(myProject), myProject);
         Writer.write("-- project component init completed");
     }
 

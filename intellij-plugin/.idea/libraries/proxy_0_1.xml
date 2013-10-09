@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="proxy-0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
