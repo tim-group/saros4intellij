@@ -9,9 +9,7 @@ public class RestServlet extends ServletContainer {
     public static ServletContainer create() {
         ResourceConfig config = new ResourceConfig();
 
-        RestNavigator transactions = new RestNavigator();
-
-        config.registerInstances(transactions);
+        config.registerInstances(new LocationResource(null));
 
         return new ServletContainer(config);
     }
