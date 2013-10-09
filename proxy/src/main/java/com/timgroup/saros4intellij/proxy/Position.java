@@ -1,16 +1,13 @@
 package com.timgroup.saros4intellij.proxy;
 
 public class Position {
-    public final int line;
-    public final int column;
+    public final int offset;
     
-    public Position(int line, int column) {
-        super();
-        this.line = line;
-        this.column = column;
+    public Position(int offset) {
+        this.offset = offset;
     }
     
     public String toJson() {
-        return "{\"line\": " + line + ", \"column\": " + column + "}";
+        return "{\"offset\": " + offset + " }";
     }
 }

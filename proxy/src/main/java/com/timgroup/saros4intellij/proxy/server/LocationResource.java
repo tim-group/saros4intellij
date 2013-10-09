@@ -28,10 +28,9 @@ public class LocationResource {
     @Consumes(MediaType.APPLICATION_JSON)
     public String index(@Context HttpServletRequest request, JSONObject postBody) throws JSONException {
         String filename = postBody.getString("filename");
-        int line = postBody.getInt("line");
-        int column = postBody.getInt("column");
+        int offset = postBody.getInt("offset");
         
-        listener.goTo(filename, new Position(line, column));
+        listener.goTo(filename, new Position(offset));
         
         return "{ \"success\": true}";
     }
