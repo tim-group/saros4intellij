@@ -27,7 +27,7 @@
   <application-components>
     <!-- Add your application components here -->
       <component>
-          <implementation-class>com.timgroup.saros4intellij.Whatevs</implementation-class>
+          <implementation-class>com.timgroup.saros4intellij.OurPluginApplicationComponent</implementation-class>
       </component>
   </application-components>
 
@@ -41,7 +41,5 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <fileDocumentManagerListener implementation="com.timgroup.saros4intellij.OurFileDocumentManagerListener"></fileDocumentManagerListener>
-
   </extensions>
 </idea-plugin>

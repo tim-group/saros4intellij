@@ -8,7 +8,7 @@ public class Writer {
     public static void write(String message) {
         System.out.println(message);
         try {
-            PrintWriter w = new PrintWriter(new FileWriter("/home/ian/itworks.txt", true));
+            PrintWriter w = new PrintWriter(new FileWriter(System.getProperty("user.home") + "/saros4intellij_output.txt", true));
             w.println(message);
             w.flush();
             w.close();
