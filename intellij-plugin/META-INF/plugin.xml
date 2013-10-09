@@ -7,7 +7,8 @@
   <description><![CDATA[
       Enter short description for your plugin here.<br>
       <small>most HTML tags may be used</small>
-      ]]></description>
+      ]]>
+  </description>
 
   <change-notes><![CDATA[
       Add change notes here.<br>
@@ -26,13 +27,13 @@
 
   <application-components>
     <!-- Add your application components here -->
-      <component>
-          <implementation-class>com.timgroup.saros4intellij.OurPluginApplicationComponent</implementation-class>
-      </component>
   </application-components>
 
   <project-components>
     <!-- Add your project components here -->
+      <component>
+          <implementation-class>com.timgroup.saros4intellij.OurPluginProjectComponent</implementation-class>
+      </component>
   </project-components>
 
   <actions>
