@@ -8,9 +8,11 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 
+import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
 import com.timgroup.saros4intellij.proxy.Navigator;
+import com.timgroup.saros4intellij.proxy.Position;
 
 @Path("/")
 public class LocationResource {
@@ -24,9 +26,13 @@ public class LocationResource {
     @Path("/location")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public String index(@Context HttpServletRequest request, JSONObject postBody) {
+    public String index(@Context HttpServletRequest request, JSONObject postBody) throws JSONException {
+        String filename = postBody.getString("filename");
+        int line = postBody.getInt("line");
+        int column = postBody.getInt("column");
         
+        listener.goTo(filename, new Position(line, column));
         
-        return "{ \"hello\": \"" + postBody + "\"}";
+        return "{ \"success\": true}";
     }
 }
