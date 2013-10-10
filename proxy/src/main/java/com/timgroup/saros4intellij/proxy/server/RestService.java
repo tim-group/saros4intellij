@@ -13,26 +13,28 @@ import com.timgroup.saros4intellij.proxy.Navigator;
 public class RestService {
     private final Navigator navigationListener;
     private final Editor editListener;
+    private final int port;
 
-    public RestService(Navigator navigationListener, Editor editListener) {
+    public RestService(int port, Navigator navigationListener, Editor editListener) {
+        this.port = port;
         this.navigationListener = navigationListener;
         this.editListener = editListener;
     }
-    
+
     public void start() {
-        Server server = createServer(navigationListener, editListener);
+        Server server = createServer(port, navigationListener, editListener);
         try {
             server.start();
-            System.out.println("Running Saros REST Server on port " + 7373);
+            System.out.println("Running Saros REST Server on port " + port);
             server.join();
         } catch (Exception e) {
             System.err.println("Died: " + e.getMessage());
         }
     }
 
-    private static Server createServer(Navigator navigationListener, Editor editListener) {
-        Server server = new Server(7373);
-        
+    private static Server createServer(int port, Navigator navigationListener, Editor editListener) {
+        Server server = new Server(port);
+
         HandlerList handlers = new HandlerList();
         handlers.setHandlers(new Handler[] {
                 transactionsContext(server, navigationListener, editListener)
@@ -41,7 +43,7 @@ public class RestService {
         server.setHandler(handlers);
         return server;
     }
-    
+
     private static ContextHandler transactionsContext(Server server, Navigator navigationListener, Editor editListener) {
         ServletContextHandler servletContext = new ServletContextHandler(
                 server, "/", ServletContextHandler.SESSIONS | ServletContextHandler.SECURITY);
