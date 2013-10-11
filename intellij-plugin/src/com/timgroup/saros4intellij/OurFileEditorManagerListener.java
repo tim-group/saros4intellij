@@ -13,14 +13,8 @@ public class OurFileEditorManagerListener extends FileEditorManagerAdapter {
     private final Project project;
 
     public OurFileEditorManagerListener(Project project) {
-
         this.project = project;
     }
-
-//    @Override
-//    public void fileOpened(FileEditorManager source, VirtualFile file) {
-//        Writer.write("file opened: " + file.getCanonicalPath());
-//    }
 
     @Override
     public void selectionChanged(FileEditorManagerEvent event) {

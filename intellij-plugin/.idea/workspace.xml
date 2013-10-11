@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0133a9-c24b-4349-ac25-50390d2a5466" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/proxy_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proxy/target/proxy-0.1-package.zip" afterPath="$PROJECT_DIR$/../proxy/target/proxy-0.1-package.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurFileEditorManagerListener.java" afterPath="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurFileEditorManagerListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java" afterPath="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saros4intellij.iml" afterPath="$PROJECT_DIR$/saros4intellij.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="saros4intellij.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381330234450" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381413373377" ignored="false" />
     <file path="/Test.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381247855965" ignored="false" />
     <file path="/plugin.xml" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381326835639" ignored="false" />
     <file path="/OurFileDocumentManagerListener.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381250174200" ignored="false" />
     <file path="$PROJECT_DIR$/../S4ISandpit/.idea/workspace.xml" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381249082792" ignored="false" />
-    <file path="/fragment.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381326876149" ignored="false" />
+    <file path="/fragment.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381416836784" ignored="false" />
     <file path="/Writer.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381250147561" ignored="false" />
     <file path="/Whatevs.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381309722680" ignored="false" />
-    <file path="/OurFileEditorManagerListener.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381329642677" ignored="false" />
+    <file path="/OurFileEditorManagerListener.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381413486368" ignored="false" />
     <file path="/OurPluginApplicationComponent.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381326343360" ignored="false" />
-    <file path="/OurPluginProjectComponent.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381329656057" ignored="false" />
+    <file path="/OurPluginProjectComponent.java" changelist="8c0133a9-c24b-4349-ac25-50390d2a5466" time="1381416876970" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +79,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OurPluginProjectComponent.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OurPluginProjectComponent.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="99" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
+            <state line="47" column="97" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.6928934">
+              <folding>
+                <element signature="e#1561#1754#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/Main.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="48" selection-start="304" selection-end="304" vertical-scroll-proportion="-5.04">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palette.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/plugins/ui-designer/src/com/intellij/uiDesigner/palette/Palette.java">
+      <file leaf-file-name="RestServlet.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/server/RestServlet.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="30" selection-start="5491" selection-end="5519" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="-2.8">
               <folding />
             </state>
           </provider>
@@ -103,52 +112,63 @@
       <file leaf-file-name="Writer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="7" column="23" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OurFileEditorManagerListener.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RestService.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/server/RestService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="-5.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OurFileEditorManagerListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurFileEditorManagerListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="52" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.46192893">
+            <state line="18" column="26" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileEditorManagerEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/FileEditorManagerEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="26" selection-start="824" selection-end="846" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
+      <file leaf-file-name="CaretEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/editor/event/CaretEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="324" column="21" selection-start="11420" selection-end="11420" vertical-scroll-proportion="0.0">
+            <state line="35" column="37" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Position.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/Position.class">
+      <file leaf-file-name="FileEditorManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-impl/src/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.04">
+            <state line="1404" column="26" selection-start="51453" selection-end="51473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpClientNavigator.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/client/HttpClientNavigator.class">
+      <file leaf-file-name="EditorsSplitters.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-impl/src/com/intellij/openapi/fileEditor/impl/EditorsSplitters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="65" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+            <state line="697" column="30" selection-start="25443" selection-end="25459" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,8 +198,8 @@
         <option value="$PROJECT_DIR$/src/com/timgroup/saros4intellij/Whatevs.java" />
         <option value="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginApplicationComponent.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java" />
         <option value="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurFileEditorManagerListener.java" />
+        <option value="$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java" />
       </list>
     </option>
   </component>
@@ -222,6 +242,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,6 +310,36 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saros4intellij" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy-0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy-0.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -331,7 +382,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,9 +402,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -362,6 +412,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Plugin.Run Sandpit">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.timgroup.saros4intellij.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.timgroup.saros4intellij.proxy.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="saros4intellij" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -374,19 +446,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -415,6 +474,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -468,9 +540,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Plugin.Run Sandpit" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -509,6 +587,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39961013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -517,7 +596,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846004" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -526,10 +605,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31322634" sideWeight="0.81578946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958494" sideWeight="0.81578946" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -598,103 +676,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/FileEditorManagerAdapter.java">
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/core-api/src/com/intellij/pom/Navigatable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.10279001" />
+        <state line="25" column="38" selection-start="938" selection-end="1228" vertical-scroll-proportion="0.44416243">
+          <folding>
+            <element signature="e#0#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/NavigatableFileEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="54" selection-start="911" selection-end="911" vertical-scroll-proportion="0.19870968" />
+      </provider>
+    </entry>
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/FileEditorLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.30203044" />
+      </provider>
+    </entry>
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/editor/LogicalPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="21" selection-start="1917" selection-end="1932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/TextEditorLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/lang-impl/src/com/intellij/injected/editor/CaretModelWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="9" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/FileEditorManagerEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="824" selection-end="824" vertical-scroll-proportion="-0.10425844" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-sun/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="12" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/util/src/com/intellij/util/containers/ConcurrentHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="9" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.24669604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="23" column="26" selection-start="824" selection-end="846" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/core-api/src/com/intellij/openapi/components/ProjectComponent.java">
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/editor/event/CaretEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.15762538" />
-      </provider>
-    </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/core-api/src/com/intellij/openapi/application/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="999" selection-end="1017" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/plugins/ui-designer/src/com/intellij/uiDesigner/palette/Palette.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="30" selection-start="5491" selection-end="5519" vertical-scroll-proportion="0.0">
+        <state line="35" column="37" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/plugins/ui-designer/src/com/intellij/uiDesigner/propertyInspector/UIDesignerToolWindowManager.java">
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-impl/src/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="71" selection-start="3140" selection-end="3285" vertical-scroll-proportion="0.0">
+        <state line="1404" column="26" selection-start="51453" selection-end="51473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-api/src/com/intellij/openapi/fileEditor/FileEditorManagerListener.java">
+    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/platform-impl/src/com/intellij/openapi/fileEditor/impl/EditorsSplitters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.35578144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="65" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/client/HttpClientNavigator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///home/msiegel/Documents/workspace/intellij-community/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="324" column="21" selection-start="11420" selection-end="11420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="99" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/Position.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.04">
+        <state line="697" column="30" selection-start="25443" selection-end="25459" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurFileEditorManagerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="52" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.46192893">
+        <state line="18" column="26" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="304" selection-end="304" vertical-scroll-proportion="-5.04">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/server/RestService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="-5.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../proxy/target/proxy-0.1.jar!/com/timgroup/saros4intellij/proxy/server/RestServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="-2.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/timgroup/saros4intellij/OurPluginProjectComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="97" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.6928934">
+          <folding>
+            <element signature="e#1561#1754#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

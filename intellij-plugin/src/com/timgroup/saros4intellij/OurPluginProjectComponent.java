@@ -3,20 +3,27 @@ package com.timgroup.saros4intellij;
 import com.intellij.openapi.components.ProjectComponent;
 import com.intellij.openapi.fileEditor.FileEditorManager;
 import com.intellij.openapi.project.Project;
+import com.intellij.openapi.vfs.VirtualFile;
+import com.timgroup.saros4intellij.proxy.*;
+import com.timgroup.saros4intellij.proxy.server.RestService;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.Arrays;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 public class OurPluginProjectComponent implements ProjectComponent {
     private final Project myProject;
     private final FileEditorManager myFileEditorManager;
 
+    private static final int INTELLIJ_PORT = 7374;
+
+    private final Executor sarosServerExecutor = Executors.newSingleThreadExecutor();
+
     /** Invoked by reflection */
     public OurPluginProjectComponent(Project project, FileEditorManager fileEditorManager) {
         myProject = project;
-        //myFileEditorManager = FileEditorManager.getInstance(myProject);
         myFileEditorManager = fileEditorManager;
-        //Writer.write("constructor called");
-//        MyFileEditorManagerListener listener = new MyFileEditorManagerListener();
-
     }
 
     @NotNull
@@ -37,6 +44,24 @@ public class OurPluginProjectComponent implements ProjectComponent {
     @Override
     public void projectOpened() {
         Writer.write("opened project: " + myProject.getName());
+        sarosServerExecutor.execute(new Runnable() {
+            @Override
+            public void run() {
+                new RestService(INTELLIJ_PORT, new Navigator() {
+                    @Override
+                    public Result goTo(String filename, Position position) {
+                        final VirtualFile file = myProject.getBaseDir().findFileByRelativePath(filename);
+
+                        if (file == null) {
+                            return Result.failed("Cannot find file: " + filename);
+                        }
+
+                        myFileEditorManager.openFile(file, true);
+                        return Result.success();
+                    }
+                }, new SysoutEditor()).start();
+            }
+        });
     }
 
     @Override
